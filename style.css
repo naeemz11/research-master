@@ -121,7 +121,7 @@ h4 {
     
 }
 .content{
-    
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     width: 60vh;
