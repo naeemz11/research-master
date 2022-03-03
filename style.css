@@ -4,6 +4,8 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0;
+    min-width:fit-content;
+    scroll-behavior: smooth;
     
     
 }
@@ -16,7 +18,7 @@ body{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: none;
+    background-color: black;
     font-family:sans-serif;
     font-weight: bold;
     
@@ -26,7 +28,7 @@ body{
   .navbar a {
     float: left;
     font-size: 20px;
-    color: rgb(15, 15, 15);
+    color: #f7c569;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,7 +48,7 @@ body{
     border: none;
   
     outline: none;
-    color: rgb(5, 5, 5);
+    color: #f7c569;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; 
@@ -56,23 +58,23 @@ body{
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     /*background-color: rgba(247, 22, 71, 0.925);*/
-    color: rgb(226, 67, 5);
+    color: #fafafa;
   }
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:#f2f2f3;
+    background-color: rgb(10, 10, 10);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(32, 32, 32, 0.171);
     z-index: 1;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: black;
+    color: wheat;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -82,8 +84,8 @@ body{
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: rgba(226, 68, 5, 0.151);
-    color:rgb(226, 68, 5);
+    background-color: rgba(31, 30, 30, 0.151);
+    color:rgb(255, 255, 255);
     
   }
   
@@ -94,30 +96,31 @@ body{
   }
 
 
-  .title-author {
-    background-color: #d8d8d8;
+.title-author {
+    background-color: #000000;
     padding-bottom: 15px;
     padding-top: 50px;
     position: static;
-    
-    
-    
-    }
+}
     
 h1{
     position:static;
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
     font-size: 50px;
     margin-right: 20vw;
     margin-left: 20vw;  
-    margin-top: -10px; 
+    margin-top: -10px;
+    color: wheat; 
       
 }
 
 h4 {
     text-align: center;
     font-size: 30px;
+    color: rgb(252, 211, 135);
+    /*font-family: sans-serif;*/
+    font-family: monospace;
     
 }
 .content{
@@ -142,7 +145,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -15px;
+  margin-top: -40px;
   margin-bottom: 25px;
   border-radius: 50% ; 
   
@@ -154,7 +157,7 @@ table, th, td {
 }
 
 .wiki-title-container {
-  background-color: #d8d8d8;
+  background-color: #000000;
   padding-top: 60px; 
   text-align: center;
   padding-bottom: 50px; 
@@ -167,18 +170,22 @@ table, th, td {
 }
 
 .data-table {
-  margin-top: 30px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   border: none;
   position: static; 
+  margin-right: auto;
+  margin-left: auto;
 }
 
 th{
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(19, 18, 18);
   color: aliceblue;
-  font-size: 15px;
-  padding: 20px;
+  font-size: 20px;
+  /*padding: 20px;*/
+  padding: 25px;
+  
   
 }
 
@@ -186,6 +193,9 @@ td{
   background-color: rgb(194, 191, 191);
   text-align: center;
   padding: 10px ; 
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .wiki-container{
