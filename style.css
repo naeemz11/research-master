@@ -122,10 +122,11 @@ h1{
 
 h4 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: aliceblue;
     /*font-family: sans-serif;*/
-    font-family: monospace;
+    font-family: 'oswald';
+    font-weight: lighter;
     
 }
 .content{
