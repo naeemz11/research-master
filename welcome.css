@@ -13,7 +13,8 @@ body{
     font-family: 'oswald';
     font-weight: lighter;
     text-align: center;
-    margin-top: 150px;  
+    margin-top: 150px; 
+    color: aliceblue; 
   }
 
 
@@ -32,7 +33,7 @@ body{
 }
 
 .nav a{
-    color: rgb(250, 195, 124);
+    color: rgb(235, 232, 232);
     text-decoration: none;
     font-size: 40px;
     display:inline-block;
@@ -42,8 +43,9 @@ body{
 }
 
 .nav a:hover{
-    color: rgb(255, 151, 24);
-    background-color: rgb(24, 24, 24);
+    color: rgb(252, 183, 99);
+    /*background-color: rgb(24, 24, 24);*/
+    
     
     
     
