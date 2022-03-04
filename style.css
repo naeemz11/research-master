@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
     background-color:rgb(245, 243, 243);
     width: 100%;
     height: 100vh;
@@ -18,7 +21,7 @@ body{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(11,11,11);
     font-family:sans-serif;
     font-weight: bold;
     
@@ -65,7 +68,7 @@ body{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(26, 25, 25, 0.562);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(32, 32, 32, 0.171);
     z-index: 1;
@@ -97,17 +100,19 @@ body{
 
 
 .title-author {
-    background-color: #000000;
+    background-color: rgb(11,11,11);
     padding-bottom: 15px;
     padding-top: 50px;
     position: static;
 }
     
 h1{
+    font-family: 'oswald';
     position:static;
+    font-weight: 500;
     padding-top: 100px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     margin-right: 20vw;
     margin-left: 20vw;  
     margin-top: -10px;
@@ -140,7 +145,7 @@ h4 {
 
 img{
   /*width: 800px;*/
-  width: 40vw;
+  width: 30vw;
   position: static;
   display: block;
   margin-left: auto;
@@ -157,7 +162,7 @@ table, th, td {
 }
 
 .wiki-title-container {
-  background-color: #000000;
+  background-color: rgb(11,11,11);
   padding-top: 60px; 
   text-align: center;
   padding-bottom: 50px; 
@@ -165,7 +170,7 @@ table, th, td {
 }
 
 .wiki-title {
-  font-size: 50px;
+  font-size: 70px;
   margin-top: -10px;
 }
 
@@ -204,4 +209,4 @@ td{
   margin-left: 19px;
 }
 
-
+/*-------------------------Welcome Page              */
